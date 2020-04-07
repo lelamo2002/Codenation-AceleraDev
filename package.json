@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "axios": "^0.19.2",
+    "js-sha1": "^0.6.0",
+    "node": "^13.12.0",
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node services/api.js",
+    "cesar": "nodemon services/cesar.js",
+    "sha": "nodemon services/sha1.js"
+  }
+}
